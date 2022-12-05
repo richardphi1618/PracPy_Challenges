@@ -1,0 +1,1 @@
+fruits = {'fruit': 'apple', 'color': 'green'}
