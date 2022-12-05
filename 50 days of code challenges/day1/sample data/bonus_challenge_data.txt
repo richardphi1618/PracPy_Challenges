@@ -1,1 +1,1 @@
-fruits = {'fruit': 'apple', 'color': 'green'}
+fruits = {'fruit': 'apple', 'color': 'green'} 

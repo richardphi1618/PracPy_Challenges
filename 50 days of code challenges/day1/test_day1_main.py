@@ -1,6 +1,7 @@
+import json
 import random
 
-from main import divide_or_square
+from main import divide_or_square, longest_value
 
 
 def test_example():
@@ -19,3 +20,18 @@ def test_return_sqrt():
     for i in range(100):
         multiple_of_5 = i * 5
         assert round(divide_or_square(multiple_of_5) ** 2, 0) == multiple_of_5
+
+
+def test_longest_value():
+    fruits = {"fruit": "apple", "color": "green"}
+    assert longest_value(fruits) == "apple"
+
+
+def test_longest_value_from_file():
+    # gave up on this idea after I had to think about how to capture the correct answer
+    all_tests = []
+    with open("./50 days of code challenges/day1/sample data/bonus_challenge_data.txt") as f:
+        lines = f.readlines()
+        for i in lines:
+            input = i.replace(" ", "").split("=")
+            all_tests.append({input[0]: json.loads(input[1].replace("'", '"'))})
