@@ -7,11 +7,11 @@ def test_convert_add() -> None:
     assert convert_add(test_list) == 9
 
 
-def test_duplicates() -> None:
+def test_check_duplicates() -> None:
     # the list of fruits below should return apple as a duplicate and list of names should return "no duplicates".
 
     fruits = ['apple', 'orange', 'banana', 'apple']
     names = ['Yoda', 'Moses', 'Joshua', 'Mark']
 
-    assert check_duplicates(fruits) == "apple"
-    assert check_duplicates(names) == "no duplicates"
+    assert check_duplicates(fruits) == ["apple"]
+    assert check_duplicates(names) == ["no duplicates"]
