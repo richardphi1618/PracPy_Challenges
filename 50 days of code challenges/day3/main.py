@@ -8,6 +8,7 @@ def register_check(input: dict) -> int:
 
 
 def lower_case(input: "list[str]") -> tuple:
+    input.sort(reverse=True)
     answer = ()
     for i in input:
         if i[0].islower():
