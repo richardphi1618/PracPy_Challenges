@@ -1,7 +1,7 @@
 import json
 import random
 
-from main import divide_or_square, longest_value
+from day1 import divide_or_square, longest_value
 
 
 def test_example():

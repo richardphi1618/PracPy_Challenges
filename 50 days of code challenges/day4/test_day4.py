@@ -1,9 +1,9 @@
-from main import only_floats, word_index
+from day4 import only_floats, word_index
 
 
 def test_only_floats() -> None:
-    test_tup = (12.1, 23)
-    assert only_floats(test_tup) == 1
+    test_tuple = (12.1, 23)
+    assert only_floats(test_tuple) == 1
 
 
 def test_word_index() -> None:

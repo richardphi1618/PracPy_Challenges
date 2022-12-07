@@ -1,4 +1,4 @@
-from main import check_duplicates, convert_add
+from day2 import check_duplicates, convert_add
 
 
 def test_convert_add() -> None:

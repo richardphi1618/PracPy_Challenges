@@ -1,4 +1,4 @@
-from main import lower_case, register_check
+from day3 import lower_case, register_check
 
 
 def test_register_check() -> None:
