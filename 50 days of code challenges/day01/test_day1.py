@@ -30,7 +30,7 @@ def test_longest_value():
 def test_longest_value_from_file():
     # gave up on this idea after I had to think about how to capture the correct answer
     all_tests = []
-    with open("./50 days of code challenges/day1/sample data/bonus_challenge_data.txt") as f:
+    with open("./50 days of code challenges/day01/sample data/bonus_challenge_data.txt") as f:
         lines = f.readlines()
         for i in lines:
             input = i.replace(" ", "").split("=")
