@@ -3,7 +3,7 @@ def flat_list(input_list: "list[list]") -> list:
     return [i for sublist in input_list for i in sublist]
 
 
-def your_salary(name:str, periods: int, rate: int = 20)-> str:
+def your_salary(name:str, periods:int, rate:int = 20)-> str:
     if periods > 100:
         overtime_earned = periods - 100
     else:
