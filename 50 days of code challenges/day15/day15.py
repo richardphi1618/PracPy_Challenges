@@ -15,6 +15,7 @@ def your_age(name:str, age:int = 0) -> str:
         raise ValueError("Name not found")
     return f'Hi, {name}, you are {age} years old.'
 
+
 if __name__ == "__main__":
     user = input("What is your name? ")
     try: 
