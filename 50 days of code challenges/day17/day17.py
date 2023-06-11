@@ -21,5 +21,3 @@ if __name__ == "__main__":
     print(user_name(input_name))
 
     print(sort_names([ "Peter", "Jon", "Andrew"]))
-
-
